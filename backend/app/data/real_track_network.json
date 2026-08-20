@@ -1,0 +1,64 @@
+{
+  "corridors": [
+    {
+      "corridor_id": "COR-01",
+      "name": "Northern High-Speed Mainline (Delhi-Agra Segment)",
+      "total_length_km": 200,
+      "max_speed_kmh": 160,
+      "segments": [
+        {
+          "segment_id": "SEG-101",
+          "start_km": 0.0,
+          "end_km": 25.0,
+          "start_coords": {"lat": 28.6139, "lon": 77.2090},
+          "end_coords": {"lat": 28.4089, "lon": 77.3178},
+          "gradient_percent": 0.0,
+          "speed_limit_kmh": 160.0,
+          "tracks": 2,
+          "signals": [
+            {
+              "signal_id": "SIG-101-A",
+              "km_marker": 5.2,
+              "location_coords": {"lat": 28.5710, "lon": 77.2315},
+              "interlocking_digital_state": "PROCEED",
+              "camera_visual_aspect": "PROCEED"
+            },
+            {
+              "signal_id": "SIG-101-B",
+              "km_marker": 18.5,
+              "location_coords": {"lat": 28.4590, "lon": 77.2910},
+              "interlocking_digital_state": "STOP",
+              "camera_visual_aspect": "PROCEED"
+            }
+          ],
+          "balises": [
+            {"balise_id": "BAL-101-1", "km_marker": 5.0, "code": "BAL_COR_01_SEC_1"},
+            {"balise_id": "BAL-101-2", "km_marker": 18.0, "code": "BAL_COR_01_SEC_2"}
+          ]
+        },
+        {
+          "segment_id": "SEG-102",
+          "start_km": 25.0,
+          "end_km": 50.0,
+          "start_coords": {"lat": 28.4089, "lon": 77.3178},
+          "end_coords": {"lat": 28.2000, "lon": 77.4000},
+          "gradient_percent": 1.2,
+          "speed_limit_kmh": 130.0,
+          "tracks": 2,
+          "signals": [
+            {
+              "signal_id": "SIG-102-A",
+              "km_marker": 32.0,
+              "location_coords": {"lat": 28.3500, "lon": 77.3500},
+              "interlocking_digital_state": "CAUTION",
+              "camera_visual_aspect": "CAUTION"
+            }
+          ],
+          "balises": [
+            {"balise_id": "BAL-102-1", "km_marker": 30.0, "code": "BAL_COR_01_SEC_3"}
+          ]
+        }
+      ]
+    }
+  ]
+}

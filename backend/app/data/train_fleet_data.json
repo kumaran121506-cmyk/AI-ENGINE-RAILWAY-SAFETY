@@ -1,0 +1,40 @@
+{
+  "fleet": [
+    {
+      "train_id": "TRN-EXPRESS-101",
+      "name": "Vande Bharat Express 101",
+      "type": "HIGH_SPEED_PASSENGER",
+      "total_mass_tonnes": 430.0,
+      "length_meters": 400.0,
+      "max_service_speed_kmh": 160.0,
+      "max_traction_accel_ms2": 0.7,
+      "service_decel_ms2": 1.0,
+      "emergency_decel_ms2": 1.4,
+      "brake_response_time_sec": 0.20
+    },
+    {
+      "train_id": "TRN-FREIGHT-302",
+      "name": "Heavy Iron Ore Freight 302",
+      "type": "HEAVY_FREIGHT",
+      "total_mass_tonnes": 5200.0,
+      "length_meters": 750.0,
+      "max_service_speed_kmh": 90.0,
+      "max_traction_accel_ms2": 0.25,
+      "service_decel_ms2": 0.45,
+      "emergency_decel_ms2": 0.75,
+      "brake_response_time_sec": 0.45
+    },
+    {
+      "train_id": "TRN-RAPID-504",
+      "name": "Rapid Commuter Express 504",
+      "type": "SUBURBAN_COMMUTER",
+      "total_mass_tonnes": 320.0,
+      "length_meters": 240.0,
+      "max_service_speed_kmh": 110.0,
+      "max_traction_accel_ms2": 1.0,
+      "service_decel_ms2": 1.2,
+      "emergency_decel_ms2": 1.6,
+      "brake_response_time_sec": 0.15
+    }
+  ]
+}
