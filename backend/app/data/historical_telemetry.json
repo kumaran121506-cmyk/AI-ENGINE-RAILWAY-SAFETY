@@ -1,0 +1,38 @@
+{
+  "historical_events": [
+    {
+      "event_id": "EVT-2026-001",
+      "timestamp": "2026-08-19T10:15:30.000Z",
+      "train_id": "TRN-EXPRESS-101",
+      "track_segment_id": "SEG-101",
+      "position_km": 17.8,
+      "speed_kmh": 145.0,
+      "heading_deg": 140.5,
+      "target_signal_id": "SIG-101-B",
+      "digital_signal_state": "STOP",
+      "camera_signal_aspect": "PROCEED",
+      "detected_risk_level": "CRITICAL",
+      "risk_reason": "Signal Aspect Mismatch: Digital Interlocking state is STOP but Visual Camera detected PROCEED. Potential optical tamper or aspect relay fault.",
+      "actuation_triggered": true,
+      "braking_intensity_percent": 100.0,
+      "stopping_distance_calc_meters": 568.4
+    },
+    {
+      "event_id": "EVT-2026-002",
+      "timestamp": "2026-08-19T10:18:12.000Z",
+      "train_id": "TRN-FREIGHT-302",
+      "track_segment_id": "SEG-101",
+      "position_km": 19.2,
+      "speed_kmh": 75.0,
+      "heading_deg": 320.5,
+      "target_signal_id": null,
+      "digital_signal_state": null,
+      "camera_signal_aspect": null,
+      "detected_risk_level": "CRITICAL",
+      "risk_reason": "Imminent Head-On Collision Risk: TRN-EXPRESS-101 and TRN-FREIGHT-302 converging on SEG-101. Distance gap 1,400m below calculated safe combined stopping margin (1,680m).",
+      "actuation_triggered": true,
+      "braking_intensity_percent": 100.0,
+      "stopping_distance_calc_meters": 435.2
+    }
+  ]
+}
